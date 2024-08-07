@@ -1,8 +1,7 @@
 import Layout from "@/components/Layout";
-import Link from 'next/link';
+import Link from "next/link";
 
-import { skills, experiences, projects } from '@/pages/profile';
-
+import { skills, experiences, projects } from "@/pages/profile";
 
 export default function Home() {
   return (
@@ -13,16 +12,23 @@ export default function Home() {
           <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
             <div className="row">
               <div className="col-md-4 text-center">
-                <img src="/profile_ines.png" alt="profile Inés María" className="img-fluid" />
+                <img
+                  src="/profile_rita.jpg"
+                  alt="profile Rita B"
+                  className="img-fluid"
+                />
               </div>
               <div className="col-md-8">
-                <h1>Inés María Oliveros</h1>
+                <h1>Rita Ballesteros</h1>
                 <h3>FullStack Developer</h3>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae atque ullam perferendis harum, nisi porro voluptate,
-                  iste consequuntur enim reprehenderit architecto consectetur cum?
-                  Totam ad molestias natus illum illo officia.
+                  Soy una profesional del área de marketing y publicidad, con
+                  énfasis en procesos que involucren el área de IT, usando
+                  herramientas capaces de impulsar el rendimiento y seguimiento
+                  de las estrategias y acciones de marketing para generar
+                  crecimiento y visibilidad para nuestros clientes. Estoy en 
+                  capacidad de aprovechar los avances y los recursos tecnológicos
+                   implementándolos en las labores específicas para las cuales trabajo.
                 </p>
                 <Link href="/hireme" className="btn btn-outline-light">
                   Hire Me
@@ -100,7 +106,11 @@ export default function Home() {
                   <div className="col-md-4 p-2" key={index}>
                     <div className="card h-100">
                       <div className="overflow">
-                        <img src={`/${image}`} alt="project" className="card-img-top" />
+                        <img
+                          src={`/${image}`}
+                          alt="project"
+                          className="card-img-top"
+                        />
                       </div>
                       <div className="card-body">
                         <h3>{name}</h3>
@@ -123,7 +133,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
     </Layout>
   );
 }

@@ -2,19 +2,19 @@
 export const skills = [
     {
       skill: "JavaScript",
-      percentage: 90,
+      percentage: 80,
     },
     {
-      skill: "TypeScript",
-      percentage: 80,
+      skill: "Java",
+      percentage: 90,
     },
     {
       skill: "Node.js",
       percentage: 98,
     },
     {
-      skill: "Next.js",
-      percentage: 100,
+      skill: "SpringBoot",
+      percentage: 90,
     },
     {
       skill: "MongoDB",
@@ -22,11 +22,11 @@ export const skills = [
     },
     {
       skill: "React.js",
-      percentage: 100,
+      percentage: 90,
     },
     {
-      skill: "Bootstrap",
-      percentage: 100,
+      skill: "MySQL",
+      percentage: 80,
     },
   ];
   
@@ -58,37 +58,37 @@ export const skills = [
       name: "Awesome Website 1",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
+      image: "portfolio2.png",
     },
     {
       name: "Awesome Website 2",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
+      image: "portfolio2.png",
     },
     {
       name: "Awesome Website 3",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
+      image: "portfolio2.png",
     },
     {
       name: "Awesome Website 4",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
+      image: "portfolio2.png",
     },
     {
       name: "Awesome Website 5",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
+      image: "portfolio2.png",
     },
     {
       name: "Awesome Website 6",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.png",
+      image: "portfolio2.png",
     },
   ];
   
