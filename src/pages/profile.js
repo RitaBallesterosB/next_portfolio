@@ -28,6 +28,14 @@ export const skills = [
       skill: "MySQL",
       percentage: 80,
     },
+    {
+      skill: "HTML",
+      percentage: 90,
+    },
+    {
+      skill: "css",
+      percentage: 90,
+    },
   ];
   
   export const experiences = [
