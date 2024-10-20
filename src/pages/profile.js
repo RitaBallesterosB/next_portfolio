@@ -33,7 +33,7 @@ export const skills = [
       percentage: 90,
     },
     {
-      skill: "css",
+      skill: "  CSS",
       percentage: 90,
     },
   ];
