@@ -51,8 +51,8 @@ const Layout = ({ children, footer = true }) => {
         <div className="container p-4">
           <h1>&copy; Rita Ballesteros Portfolio</h1>
           <p>Email: <a href="mailto:ritaballesterosba@gmail.com" className="text-light">ritaballesterosba@gmail.com</a></p>
-          <p>Celular: <a href="tel:+573023604646" className="text-light">+573023604646</a></p>
-          <p>2024 - {new Date().getFullYear()}</p>
+          <p>Cell Phone: <a href="tel:+573023604646" className="text-light">+573023604646</a></p>
+          <p> {new Date().getFullYear()} - Bogotá - Colombia</p>
           <p>All rights Reserved.</p>
         </div>
       </footer>
