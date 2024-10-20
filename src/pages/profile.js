@@ -147,3 +147,48 @@ export const skills = [
         url:"/",
     },
   ];
+
+  const Profile = () => {
+    return (
+      <div>
+        <h1>Perfil</h1>
+        <section>
+          <h2>Habilidades</h2>
+          <ul>
+            {skills.map((skill, index) => (
+              <li key={index}>
+                {skill.skill}: {skill.percentage}%
+              </li>
+            ))}
+          </ul>
+        </section>
+  
+        <section>
+          <h2>Experiencias</h2>
+          <ul>
+            {experiences.map((experience, index) => (
+              <li key={index}>
+                <strong>{experience.title}</strong> - {experience.from}
+                <p>{experience.description}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+  
+        <section>
+          <h2>Proyectos</h2>
+          <ul>
+            {projects.map((project, index) => (
+              <li key={index}>
+                <strong>{project.name}</strong>
+                <p>{project.description}</p>
+                <img src={project.image} alt={project.name} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
+    );
+  };
+  
+  export default Profile;
