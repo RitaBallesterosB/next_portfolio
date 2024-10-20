@@ -13,14 +13,14 @@ const Github = ({ user, statusCode }) => {
         <div className="col-md-4 offset-md-4">
           <div className="card card-body text-center">
             <h1>{user.name}</h1>
-            <img src={user.avatar_url} alt="" style={{ width: "100%" }} />
+            <img src={user.avatar_url} alt="" style={{ width: "30vw" }} />
             <p>{user.bio}</p>
             <Link
-                href="/blog"
+                href="https://www.linkedin.com/in/rita-ballesteros/"
               target="_blank"
               className="btn btn-outline-secondary my-2"
             >
-              My Blog
+              My LinkedIn
               </Link>
             <a
               href={user.html_url}

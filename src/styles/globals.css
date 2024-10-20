@@ -17,7 +17,7 @@ div#__next > div {
 }
 
 .overflow .card-img-top:hover {
-  transform: scale(1.8);
+  transform: scale(1.2);
 }
 
 #nprogress .bar {
