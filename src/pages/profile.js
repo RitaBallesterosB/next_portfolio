@@ -32,7 +32,7 @@ export const skills = [
   
   export const experiences = [
     {
-      title: "Web desginer",
+      title: "Web designer",
       description:
         "targumpublicidad.com",
       from: 2015,
